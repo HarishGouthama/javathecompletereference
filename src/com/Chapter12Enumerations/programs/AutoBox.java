@@ -1,12 +1,12 @@
 package com.Chapter12Enumerations.programs;
+//Demonstrate autoboxing / unboxing.
 
-//Demonstrate a type wrapper
-public class Wrap {
+public class AutoBox {
 	public static void main(String[] args) {
 		
-		Integer iOb = new Integer(100);
+		Integer iOb = 100; //Autobox an int
 		
-		int i = iOb.intValue();
+		int i = iOb; //auto-unbox
 		
 		System.out.println(i + " " + iOb);
 	}
