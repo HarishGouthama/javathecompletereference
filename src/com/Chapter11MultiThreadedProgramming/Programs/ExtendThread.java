@@ -49,23 +49,3 @@ public class ExtendThread {
 		System.out.println("Main Thread exiting.");
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
